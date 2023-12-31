@@ -32,6 +32,7 @@
             android:ems="10"
             android:hint="UserName"
             android:inputType="text"
+            android:minHeight="48dp"
             android:textColorHint="@color/black" />
 
         <EditText
@@ -41,6 +42,7 @@
             android:ems="10"
             android:hint="Password"
             android:inputType="textPassword"
+            android:minHeight="48dp"
             android:textColorHint="@color/black" />
 
         <EditText
@@ -50,6 +52,7 @@
             android:ems="10"
             android:hint="Email"
             android:inputType="textEmailAddress"
+            android:minHeight="48dp"
             android:textColorHint="@color/black" />
 
         <EditText
@@ -59,6 +62,7 @@
             android:ems="10"
             android:hint="Mobile Number"
             android:inputType="phone"
+            android:minHeight="48dp"
             android:textColorHint="@color/black" />
 
         <Button
