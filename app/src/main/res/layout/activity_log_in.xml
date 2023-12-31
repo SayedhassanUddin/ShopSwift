@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo"
+    tools:context=".Activity.LogIn">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="italic|bold"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:background="@drawable/red_banner"
+            android:text="Enter the Username" />
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:padding="10dp"
+            android:inputType="text"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:background="@drawable/white_background2"
+            android:hint="Name" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="italic|bold"
+            android:textColor="@color/black"
+            android:background="@drawable/red_banner"
+            android:padding="10dp"
+            android:text="Enter The Password" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:ems="10"
+            android:background="@drawable/white_background2"
+            android:hint="Password"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/Login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_cat_background"
+            android:text="Log IN" />
+
+        <Button
+            android:id="@+id/signin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_cat_background"
+            android:text="Sign in" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
